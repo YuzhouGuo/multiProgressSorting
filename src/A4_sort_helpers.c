@@ -19,7 +19,7 @@ void read_all( char *filename ){
     fclose(fp);
 }
 
-// Function: read_all() 
+// Function: read_by_letter() 
 // Provided to read only the lines of a file staring with first_letter.
 // No need to change this one.
 void read_by_letter( char *filename, char first_letter ){
@@ -44,7 +44,6 @@ void read_by_letter( char *filename, char first_letter ){
     fclose(fp);
 }
 
-// YOU COMPLETE THIS ENTIRE FUNCTION FOR Q1.
 void sort_words()
 {
 	for(int i=0; i<MAX_NUMBER_LINES; i++)
@@ -72,7 +71,6 @@ void sort_words()
 	}
 }
 
-// YOU COMPLETE THIS ENTIRE FUNCTION FOR Q2.
 int initialize( ){
     // Remove the current place-holder code, and write your own.
     sem_t *(a);sem_t *(b);sem_t *(c);sem_t *(d);sem_t *(e);sem_t *(f);sem_t *(g);
@@ -92,7 +90,6 @@ int initialize( ){
     return 0;
 }
 
-// YOU MUST COMPLETE THIS FUNCTION FOR Q2 and Q3.
 int process_by_letter( char* input_filename, char first_letter ){
     // For Q2, keep the following 2 lines in your solution (maybe not at the start).
     // Add lines above or below to ensure the "This process will sort..." lines
@@ -113,7 +110,6 @@ int process_by_letter( char* input_filename, char first_letter ){
     return 0;
 }
 
-// YOU COMPLETE THIS ENTIRE FUNCTION FOR Q2 and Q3.
 int finalize( ){
     // For Q2, keep the following 2 lines in your solution (maybe not at the start).
     // Add lines above or below to ensure the "Sorting complete!" line
